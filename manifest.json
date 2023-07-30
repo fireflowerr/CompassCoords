@@ -1,0 +1,32 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Compass Coords",
+		"description": "Displays player coords while holding compass",
+		"uuid": "0688a567-6698-4092-8c4b-56cfab3930ae",
+		"min_engine_version": [1, 19, 40],
+		"version": [1, 0, 0]
+	},
+	"modules": [
+		{
+			"description": "Behavior Pack Module",
+			"type": "data",
+			"uuid": "a0e6a446-563e-451a-aca6-2233f7ad91d9",
+			"version": [1, 0, 0]
+		},
+		{
+			"description": "Gametest Module",
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/index.js",
+			"uuid": "4fb83a1d-1bc8-464e-b1cc-7c916e40934d",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.4.0-beta"
+		}
+  ]
+}
