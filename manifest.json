@@ -5,7 +5,7 @@
 		"description": "Displays player coords while holding compass",
 		"uuid": "0688a567-6698-4092-8c4b-56cfab3930ae",
 		"min_engine_version": [1, 19, 40],
-		"version": [1, 0, 0]
+		"version": [1, 0, 1]
 	},
 	"modules": [
 		{
@@ -26,7 +26,7 @@
 	"dependencies": [
 		{
 			"module_name": "@minecraft/server",
-			"version": "1.4.0-beta"
+			"version": "1.5.0"
 		}
   ]
 }
